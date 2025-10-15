@@ -1,0 +1,629 @@
+pwd
+ls
+man ls
+ls -a
+man ls
+ls -l
+ls -l -a
+ls -la
+cd carpeta_compartida/
+cd ..
+cd carpeta_compartida/
+ls
+cd ..
+pwd
+cd /
+ls
+ls -l
+cd etc/
+ls
+cat passwd
+ls
+cd ..
+cd
+pwd
+history 
+ls --help
+exit
+ls
+cls
+ls
+ls -l
+cat README 
+sad
+cls
+cat << EOF
+linea 1
+linea 2
+hola
+chau
+EOF
+
+cat << EOF > clase3.txt
+hola
+es
+un
+archivod
+de
+texto
+eof
+EOF
+
+ls -l
+cat clase3.txt 
+cat << EOF > clase3.txt
+EOF
+
+cat  clase3.txt
+cat << EOF > clase3.txt
+linea 1
+linea 2
+EOF
+
+cat << EOF >> clase3.txt
+linea 3
+linea 4
+EOF
+
+cat  clase3.txt
+man bc
+bc <<< 1+2
+man tac
+tac clase3.txt 
+man wc
+echo "Hola Mundo" | wc
+cat clase3.txt | wc
+cat clase3.txt | wc -w
+cat clase3.txt | wc -L
+man wc
+man tail
+tail -n1 clase3.txt 
+tail -n2 clase3.txt 
+head  -n2 clase3.txt 
+cat  clase3.txt | tail -n3
+cat  clase3.txt | tail -n3 | wc
+man grep
+cat clase3.txt 
+cat  clase3.txt | tail -n2 | grep 3 
+cat  clase3.txt | tail -n2 | grep 1
+cat  clase3.txt | tail -n2 | grep 3 
+cd /
+ls -l
+cd proc/
+ls
+cat cpuinfo 
+grep -i core cpuinfo 
+nproc
+ls
+man |
+pwd
+pwc
+pwd
+cd home
+cd 
+pwd
+ls
+ls
+mkdir clases
+ls
+mv clase3.txt clases
+ls
+cd clases/
+ls
+mv clase3.txt clase4.txt 
+ls
+cd $HOME
+ls
+ls -l
+cd clases/
+cat clase4.txt 
+man cp
+man mv
+cp clase4.txt ..
+ls
+cd ..
+ls
+man cp
+cat clase4.txt 
+rm clase4.txt 
+ls
+makdir clases2
+mkdir clases2
+ls
+cp -r clases clases2
+ls
+cd clases2
+ls
+cd
+rm -r clases2
+ls
+--help
+ll 
+ls -la
+cd /
+ls
+cd var/
+cd log/
+ls
+ll
+tail -f dmesg
+sudo tail -f dmesg
+sd
+asd
+djkhsadkjaskdjgADK31ls
+ls
+sudo tail -f dmesg
+dadasdad
+dasd
+'
+cd /
+ls
+cd var
+ll
+cd ..
+ll
+cd proc/
+ll
+ls
+cat cpuinfo 
+exit
+ll
+cd /
+cd var/log/
+ls
+sudo tail -f dmesg
+cd ..
+man journalctl 
+cat journactl
+journalctl 
+ls
+cd var/
+cd log/
+journalctl -kf
+history 
+cd
+pwd
+history > historial.txt
+ls
+cat historial.txt 
+head historial.txt 
+ls
+mv historial.txt carpeta_compartida/
+ls
+cd carpeta_compartida/
+ls
+cp historial.txt ..
+cd ..
+ls
+vim texto.txt
+ls
+vim texto.txt
+cat texto.txt 
+vim ejecutable.sh
+cat ejecutable.sh 
+ll
+ls -l
+exit
+ls
+ls -l
+ll
+exit
+ls
+ll
+ls -l
+ls -la
+sudo snap install tree
+ls
+ls -l
+pwd
+tree .
+exit
+tree .
+mkdir -p servidorweb/{correos, paginas}/web{1..5}
+tree servidorweb/
+mkdir -p servidorweb/{correos,paginas}/web{1..5}
+tree .
+tree servidorweb/
+mkdir -p servidorweb/{correos, paginas}/web{1..5}
+tree servidorweb/
+mkdir -p familia/{{mama,papa}/hijo{1..4},papa/perro}
+tree familia/
+man useradd
+cd /
+pwd
+ls
+cd etc/
+cat passwd
+sudo useradd desrrollador1
+cat passwd
+cd /home
+ls
+sudo passwd
+ls
+sudo passwd desrrollador1 
+ls
+exit
+cd /home
+ls
+sudo useradd franco1
+ls
+sudo passwd franco1 
+ls
+ps -ef
+su franco1
+sudo kill -9 1574
+sudo userdel franco1 
+sudo userdel desrrollador1 
+sudo useradd -m -s /bin/bash franco1
+ls
+cd /home/
+cd /
+dc etc/
+cd etc/
+cat passwd
+cd /home/
+ls
+sudo usermod -c "Franco Sappa" franco1
+cd /
+cd etc/
+cat passwd
+su cat /etc/shadow
+sudo cat /etc/shadow
+sudo passwd franco1
+cd /home
+sudo cat /etc/shadow
+sudo grep franco1 /etc/shadow
+sudo grep franco1 /etc/shadow | awk -F ':' '{print$2}'
+sudo useradd -m -s /bin/bash -c "Daniel Sappa" -p "$(sudo grep franco1 /etc/shadow | awk -F ':' '{print$2}')" daniel1
+cat /etc/passwd
+ls
+sudo daniel1
+sudo useradd -d /home/franco1/ -s /bin/bash daniel1
+sudo useradd -d /home/franco1/ -s /bin/bash brenda1
+sudo cat /etc/passwd
+ls
+cat /etc/group
+man groupadd 
+sudo groupadd desarrolladores
+cat /etc/group
+cat /etc/passwd
+sudo usermod -G desarrolladores franco1 
+sudo usermod -G desarrolladores daniel1 
+cat /etc/group
+cat /etc/passwd
+ls
+ll
+ls -l
+man chmod
+sudo chmod 754 daniel1/
+ls -l
+cat /etc/passwd
+cat /etc/shadow
+sudo cat /etc/shadow
+cat history
+history
+history > historial.txt
+history 
+history > historial1.txt
+sudo history > historial1.txt
+pwd
+ls
+cd vagrant/
+ls
+history 
+history > historial.txt 
+mv historial.txt carpeta_compartida/
+ls
+cat ejecutable.sh 
+cd carpeta_compartida/
+ls
+-h
+--help
+man cp
+cp historial.txt ..
+cd ..
+ls
+man rm
+rm -r paginas}/
+ls
+tree clases/
+tree familia/
+tree snap/
+ls
+cat texto.txt 
+rm texto.txt 
+ls
+cat historial.txt 
+ls
+exit
+su daniel1
+exit
+ssh-keygen
+pwd
+ls -la
+cd .ssh/
+ls -la
+cat id_rsa.pub 
+sudo apt install git
+git --version 
+cd ..
+pwd
+git clone git@github.com:francosappa57/TP_AySO.git
+cp README TP_AySO/
+cd TP_AySO/
+ls -la
+git status 
+git add README 
+git status 
+git commit -m "Primer archivo"
+git push origin main 
+ls -la
+git push origin main 
+Omit --global
+cd ..
+pwd
+ls
+ls -l
+cd TP_AySO/
+pwd\
+pwd
+ls -la
+git push
+git push -u origin main
+git push -u 
+cd ..
+ls -l
+cd repogit/
+ls -l
+ls -la
+cd ..
+man 
+man /
+man del
+man ls
+man rm
+rm -r TP_AySO/
+man rm
+rm -f TP_AySO/
+man rm
+rm -d TP_AySO/
+ls -la
+rm -r TP_AySO/
+ls -la
+git --version 
+man -r
+man rm
+rm -rf TP_AySO/
+ls -la
+ll
+cd repogit/
+git clone git@github.com:francosappa57/TP_AySO.git
+ls -la
+cd TP_AySO/
+pwd
+ls -l
+cd ..
+ls -la
+cd ..
+cd /
+ls
+cd etc/
+ls -l
+cat mtab 
+man grep
+grep -i mtab 
+grep -i /etc/mtab 
+grep -i SYSFS /etc/mtab 
+grep SYSFS /etc/mtab 
+grep -i SYSFS /etc/mtab 
+grep home_url /etc/os-release 
+man grep
+grep -x home_url /etc/os-release 
+grep -w home_url /etc/os-release 
+grep -w sysfs /etc/os-release 
+grep sysfs /etc/os-release 
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+grep -i Sysfs /etc/mtab
+grep -i Sysfs /etc/mtab > dato_sys.txt
+sudo grep -i Sysfs /etc/mtab > dato_sys.txt
+cd ..
+cd home/
+cd 
+pwd
+cd repogit/
+cd TP_AySO/
+grep -i Sysfs /etc/mtab 
+grep -i Sysfs /etc/mtab > datos_sys.txt
+ls -l
+whoami
+id -un
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -k
+ls
+cat datos_usuario.txt 
+cat datos_sys.txt 
+git add .
+git config --global user.email "sappa57@gmail.com"
+git config --global user.name "francosappa57"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status 
+git status
+git push
+grep -i /etc/passwd 
+cd
+cd /
+cd etc/
+ls
+cat passwd
+grep -i vagrant
+grep -i vagrant /etc/passwd
+cd
+cd repogit/TP_AySO/
+grep vagrant /etc/passwd 
+man awk
+grep vagrant /etc/passwd awk -f
+grep vagrant /etc/passwd awk --f
+grep vagrant /etc/passwd | awk -f
+grep vagrant /etc/passwd | awk -f '{print$x}'
+grep vagrant /etc/passwd | awk -f '{print$whoami}'
+grep vagrant /etc/passwd | awk -f '{print$x}' /etc/passwd
+grep vagrant /etc/passwd | awk -f '{print$whoami}' /etc/passwd
+grep vagrant /etc/passwd awk -f '{print$whoami}'
+grep vagrant /etc/passwd awk -f '{print$x}'
+grep vagrant awk -f '{print$x}' /etc/passwd
+grep vagrant awk -f /etc/passwd
+man awk
+grep vagrant /etc/passwd | awk -f '{print$1}'
+grep -i vagrant /etc/passwd | awk -f '{print$1}'
+grep -i vagrant /etc/passwd | awk -f '{print$3}'
+grep vagrant /etc/passwd | awk
+grep vagrant /etc/passwd | awk -f progfile
+grep vagrant /etc/passwd | awk -f vagrant
+grep -i vagrant /etc/passwd | awk -f '{print$5}'
+grep -i vagrant /etc/passwd | awk -f '{print$6}'
+grep -i vagrant /etc/passwd | awk -f 5
+cat /etc/passwd
+man awk
+grep vagrant /etc/passwd | awk -F '{print $5, $6}'
+grep vagrant /etc/passwd | awk -F: '{print $5, $6}'
+grep vagrant /etc/passwd | awk '{print $5, $6}'
+grep vagrant /etc/passwd | awk -f: '{print $5, $6}'
+grep vagrant /etc/passwd | awk -F: '{print $5, $6}'
+man awk
+grep vagrant /etc/passwd | awk -F: '{print $5, $6}' >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add datos_usuario.txt 
+git commit -m "feat:Añadiendo informacion del Usuario"
+git push
+man HereDoc
+man heredoc
+--help
+-h
+-help
+heredoc -help
+<< FIN >> README.md
+Alumno: Franco Sappa
+Division: 116
+Turno: Mañana
+FIN
+
+cat README.md 
+< FIN >> README.md
+<< FIN > README.md
+Alumno: Franco Sappa
+Division: 116
+Turno: Mañana
+FIN
+
+ls
+cat README.md 
+<< FIN >> README.md
+Alumno: Franco Sappa
+Division: 116
+Turno: Mañana
+FIN
+
+cat READ
+cat README.md 
+git add README.md 
+git commit -m "ADD:Añadiendo Readme y datos de usuario"
+git push
+cat << FIN >> README.md
+Alumno: Franco Sappa
+Division: 116
+Turno: Mañana
+FIN
+
+cat README.md 
+git add README.md 
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+git pull
+git push
+git pull
+git config --global
+ls
+cat READ
+cat README.md 
+git config --global user.email "sappa57gmail.com"
+git config --global user.user "francosappa57"
+git add .
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git pull
+cd 
+cd repogit/
+man rm
+rm -rf TP_AySO/
+ls
+ls -la
+git clone git@github.com:francosappa57/TP_AySO.git
+cd TP_AySO/
+ls -la
+cat README.md 
+cat datos_usuario.txt 
+cat << FIN >> README.md 
+Alumno: Franco Sappa
+Division: 116
+Turno: Mañana
+FIN
+
+ls
+cat README.md 
+git add README.md 
+git commit -m "ADD: Añadiendo Readme"
+git push
+cd
+exit
+pwd
+cd ..
+ls 
+cd ..
+cd
+pwd
+ls
+man mkdir
+sudo mkdir -p TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+ls
+cd TP1/
+ls
+cd arquitectura/
+ls
+cd ..
+cd so
+ls
+cd
+pwd
+ls
+tree TP1/
+pip intall tree
+sudo pip install tree
+pip install tree
+sudo apt install tree
+pwd
+sudo apt update
+sudo apt install tree -y
+tree TP1/
+pwd
+cat > script_dir.sh << FIN
+sudo mkdir -p TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+FIN
+
+chmod +x script_dir.sh 
+git add script_dir.sh 
+cd repogit/
+ls
+cd TP_AySO/
+ls
+cd 
+ls
+mv script_dir.sh repogit/TP_AySO/
+LS
+ls
+cd repogit/TP_AySO/
+ls
+git add script_dir.sh 
+git commit -m "ADD: Añadiendo script"
+git push
+cd
+history -a
